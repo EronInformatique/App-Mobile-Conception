@@ -93,7 +93,12 @@ The company EronSanté's need/requirement to creat a mobile application from scr
 
 Here are information about profile users of Application EronSanté, based on usual users on current website and on strategy company :
 
-- User type 1:
+- Persona Learner 1:
+  - Age : 20 -30 years old
+  - Experience work : Juniors
+  - Profession type : Doctors, Dentists, Nurses, Physiotherapists and Pharmacists
+  - Platform device : tablet, smartphone
+- Persona visitor 1:
   - Age : 20 -30 years old
   - Experience work : Juniors
   - Profession type : Doctors, Dentists, Nurses, Physiotherapists and Pharmacists
@@ -137,9 +142,19 @@ Here are information about profile users of Application EronSanté, based on usu
     - secured payment
 - App functions: The app will allow user to see catalogues, news EronSanté, login (if they follow courses), see details of their training (start-end date session, number of hour spend, percentage completion),read and complete module training, to be redirect to shop training link with Dpc account.
 
-## Design thinking
+## Design and Ergonomy
 
 ### Wireframe
+
+To list all of features needed for the Application we describe User stories:
+
+- As a **learner** I want to **connect to with my login and password** so that I can  **access to my personnal account**. 
+- As a **Learner** I want to **access to my lessons on smartphone/tablet** so that I can **complete training's module easily and everywhere**
+- As a **Learner** I want to **be notified when the deadline is coming** so that I can  **finish training in time**
+- As a **Learner** I want to **see sumup of all my training** so that I know **more about my training progress**
+- As a **Visitor** I want to **see informations about ERON** so that I can **contact them**
+- As a **Visitor** I want to **see all training offer by ERON** so that I can **Subscribe to training session with DPC or FIFPL credits**
+
 
 ### Mockup
 
