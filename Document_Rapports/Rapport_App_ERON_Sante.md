@@ -130,16 +130,16 @@ Here are information about profile users of Application EronSanté, based on usu
   - Shop (from FIFPL or Dcp)
     - typeform
   - Catalogues
-- App Features :
-  - Home view
-  - Login view
-  - Notification (date start and end of training session)
-  - Personnal Training
-    - Resume progress
-    - List of training susbscribe
-    - List of training prerequisite and recommended about training followed
-  - Shop (personal from GAFEO):
-    - secured payment
+- App screens and features :
+  - Home screen
+  - Login screen
+  - Notification (date start and end of training session) (features)
+  - Personnal Training (screen)
+    - Resume progress (screen)
+    - List of training susbscribe (screen)
+    - List of training prerequisite and recommended about training followed (features)
+  - Shop screen (personal from GAFEO):
+    - secured payment (features)
 - App functions: The app will allow user to see catalogues, news EronSanté, login (if they follow courses), see details of their training (start-end date session, number of hour spend, percentage completion),read and complete module training, to be redirect to shop training link with Dpc account.
 
 ## Design and Ergonomy
@@ -148,12 +148,15 @@ Here are information about profile users of Application EronSanté, based on usu
 
 To list all of features needed for the Application we describe User stories:
 
-- As a **learner** I want to **connect to with my login and password** so that I can  **access to my personnal account**. 
+- As a **learner** I want to **connect with my login and password** so that I can  **access to my personnal account**. 
 - As a **Learner** I want to **access to my lessons on smartphone/tablet** so that I can **complete training's module easily and everywhere**
 - As a **Learner** I want to **be notified when the deadline is coming** so that I can  **finish training in time**
 - As a **Learner** I want to **see sumup of all my training** so that I know **more about my training progress**
+- As a **Learner** I want to **contact customer service** so that I can **get more informations, no available in the App FAQ**
 - As a **Visitor** I want to **see informations about ERON** so that I can **contact them**
 - As a **Visitor** I want to **see all training offer by ERON** so that I can **Subscribe to training session with DPC or FIFPL credits**
+- As a **Visitor** I want to **know news about my job** so that I can **get information about my job directly on my smartphone**
+
 
 
 ### Mockup
