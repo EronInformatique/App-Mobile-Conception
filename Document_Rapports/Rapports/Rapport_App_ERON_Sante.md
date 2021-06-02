@@ -8,8 +8,8 @@ author: Andria Capai
 pagesize: a4
 fontsize: 12pt
 toc: true
----
 
+---
 
 # Introduction
 
@@ -93,18 +93,20 @@ The company EronSanté's need/requirement to creat a mobile application from scr
 
 Here are information about profile users of Application EronSanté, based on usual users on current website and on strategy company :
 
-- Persona Learner 1:
+- Persona Learner :
+  - Age : >40 years old
+  - Experience work : many years
+  - Profession type : Doctors, Dentists, Nurses, Physiotherapists and Pharmacists
+  - Platform device : tablet, smartphone
+  - View picture persona in section [Appendices](#appendices)
+- Persona visitor :
   - Age : 20 -30 years old
   - Experience work : Juniors
   - Profession type : Doctors, Dentists, Nurses, Physiotherapists and Pharmacists
   - Platform device : tablet, smartphone
-- Persona visitor 1:
-  - Age : 20 -30 years old
-  - Experience work : Juniors
-  - Profession type : Doctors, Dentists, Nurses, Physiotherapists and Pharmacists
-  - Platform device : tablet, smartphone
+  - View picture persona in section [Appendices](#appendices)
 
-<!-- <a href="file:////home/acapai/Documents/Eron_Santé/Application/Persona/Persona_Yves_Maunier_Medecin_Junior.pdf">Link to persona PDF </a> -->
+
 
 <!-- TODO: Add persona picture for the final pdf -->
 
@@ -163,11 +165,17 @@ To list all of features needed for the Application we describe User stories:
 
 # Code App
 
+# Appendices
+
+![persona-learner](../../Persona/Persona_Elise_Audart_Dentiste_Apprenante_Eron.jpg)
+<p align="center"> Fig.1 - Persona learner</p>
+
+![persona-visitor](../../Persona/Persona_Yves_Maunier_Medecin_Junior.jpg)
+<p align="center"> Fig.2 - Persona visitor</p>
+
+
 # External ressources
 
-
-![Persona Visitor](../../Persona/Persona_Elise_Audart_Dentiste_Apprenante.pdf "Persona-Visitor")
-![Persona Learner](../../Persona/Persona_Yves_Maunier_Medecin_Junior.pdf "Persona-Visitor")
 <!-- ## 7. QQOQCCP
 
 ***
