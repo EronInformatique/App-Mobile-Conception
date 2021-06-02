@@ -104,7 +104,7 @@ Here are information about profile users of Application EronSanté, based on usu
   - Profession type : Doctors, Dentists, Nurses, Physiotherapists and Pharmacists
   - Platform device : tablet, smartphone
 
-<a href="file:////home/acapai/Documents/Eron_Santé/Application/Persona/Persona_Yves_Maunier_Medecin_Junior.pdf">Link to persona PDF </a>
+<!-- <a href="file:////home/acapai/Documents/Eron_Santé/Application/Persona/Persona_Yves_Maunier_Medecin_Junior.pdf">Link to persona PDF </a> -->
 
 <!-- TODO: Add persona picture for the final pdf -->
 
@@ -166,6 +166,8 @@ To list all of features needed for the Application we describe User stories:
 # External ressources
 
 
+![Persona Visitor](../../Persona/Persona_Elise_Audart_Dentiste_Apprenante.pdf "Persona-Visitor")
+![Persona Learner](../../Persona/Persona_Yves_Maunier_Medecin_Junior.pdf "Persona-Visitor")
 <!-- ## 7. QQOQCCP
 
 ***

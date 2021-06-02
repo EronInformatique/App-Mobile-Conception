@@ -1,5 +1,10 @@
-\usepackage{sectsty}
-\sectionfont{\clearpage}
+%\usepackage{sectsty}
+%\sectionfont{\clearpage}
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\usepackage{lastpage}% http://ctan.org/pkg/lastpage
+\pagestyle{fancy}% Set default page style to fancy
+\renewcommand{\headrulewidth}{0pt}% Remove header rule
+\fancyhead{}% Remove all header contents
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -7,3 +12,6 @@
     filecolor=magenta,      
     urlcolor=cyan,
     }
+\cfoot{Andria CAPAI - ERON}
+\rfoot{\thepage}
+\clearpage

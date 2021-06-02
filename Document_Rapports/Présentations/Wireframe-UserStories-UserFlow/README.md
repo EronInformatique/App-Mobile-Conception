@@ -6,4 +6,6 @@ Dans ce fichier vous trouverez 2 personas , les users stories associés à ces p
 
 
 2. Ouvrir les parcours utilisateurs au format pdf et cliquer sur les ellipses rouges pour aller d'un écran à l'autre et effectué le parcours utilisateur correspondant. 
-(PENSEZ à ADAPTER la taille du PDF à votre écran dans les configurations de votre lecteur PDF)
+**(PENSEZ à ADAPTER la taille du PDF à votre écran dans les configurations de votre lecteur PDF pour pouvoir voir les wireframe/écrans de smartphone dans son ensemble)**
+
+**(Vous pouvez également voir les parcours utilisateurs en une seule image avec les fichiers png)**
