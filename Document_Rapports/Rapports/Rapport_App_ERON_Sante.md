@@ -4,25 +4,77 @@ title : |
 
   
   Application ERON Santé
-author: Andria Capai 
+author: Andria Capai
 pagesize: a4
 fontsize: 12pt
 toc: true
 
 ---
 
+**Authors of requirements specifications and group of expressing needs**
+
+| Name/Email| Role|
+|:----|:----|
+| Damien Vert / damien.v@eronservice.fr | Executive Project |
+| Bryan Lebar / bryan.l@eronservice.fr    | IT Manager |
+| Andria Capai / andria.c@eronservice.fr  | Application Developper and author of this requirements specification |
+| Thomas Berton /  thomas.berton83@gmail.com | Partner Developper. Tecnical Manager of Website and New CRM ERON |
+| Alex Iosoni / alex.iasoni25@gmail.com | Partner Developper .  Tecnical Manager of Website and New CRM ERON|
+
+<br>
+<br>
+
+**History of changes and revisions to this document**
+
+| Version number   | Date        | Description and circumstance about modification of Specifications                                                                                  |
+|----------------- |------------ |--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| v 0.1 (Initial)  | 07/06/2021  | Specification draft , which the initial requirements specification followed by the first internal meeting and the meeting with partner Developper  |
+
+<br>
+<br>
+
+**Validations**
+
+| Version number   | Reviewer's Name and Role   | Date and signature  | Possible comments or potential reserves  |
+|----------------- |--------------------------- |-------------------- |----------------------------------------- |
+| V 0.1 (Initial)  |                            |                     |                                          |
+
+<br>
+<br>
+
 # Introduction
 
 This file is a description of Mobile App EronSante.  <br>
-The goal of this file is to describe all steps from specifications,  wireframe, mockup, workflow, code React Native , management method, softwares use, perspectives
+The goal of this file is to describe all steps from specifications,  wireframe, mockup, workflow, code developped management method, softwares use, perspectives
 
 The main goal of this app is to offer for users the possibility to : discover courses medical education , to buy or ask more information about these courses,  connect to their account in order complete their training, see their progression, deadline monitoring and also information about EronSante company.
 
 # Management method
 
-In order to success to build the app, we are using **Agile method (Scrum)** with software **trello**
+Below is every human ressources with their duties/functions need to know in order to manage the project :
 
-<!-- TODO: put example picture -->
+- Direction:
+  - Damien Vert (chef executive) : damien.v@eronservice.fr
+  - Arthur Balme  (chef executive) : arthur.b@eronservice.fr
+  - Fabien Direction ERON / EFIA : fabien.balme@gmail.com
+- Administrative / Financial Manager
+  - Philippe Vert : daf@eronservice.fr
+- Communication:
+  - Louis Serge Real del Sarte : lsdelsarte@eronservice.fr
+  - Alexandra Lages : alexandralages1@gmail.com
+- Teaching Manager:
+  - Marielle Glikpo : marielle.g@eronservice.fr
+  - Bouchra : resp.pedago@eronservice.fr
+
+- IT manager:
+  - Bryan Lebar : bryan.l@eronservice.fr
+
+- Developper Partner :
+  - Thomas Berton : thomas.berton83@gmail.com
+  - Alex Iasoni : alex.iasoni25@gmail.com
+
+In order to success to build the app, we are using **Agile method (Scrum)** (sprint's time to be define but pribably 2 weeks) with software **trello**. Also Thomas Berton and Alex Iasoni ask ERON to communicate via WhatsApp about the App and Website/CRM.
+Trello board named : "Appli Mobile".
 
 # Specifications
 
@@ -106,8 +158,6 @@ Here are information about profile users of Application EronSanté, based on usu
   - Platform device : tablet, smartphone
   - View picture persona in section [Appendices](#appendices)
 
-
-
 <!-- TODO: Add persona picture for the final pdf -->
 
 ## Quantitative objectives
@@ -121,7 +171,7 @@ Here are information about profile users of Application EronSanté, based on usu
 
 - Language App : French
 - Language Programmation :
-  - FrontEnd Framework : ReactNative
+  - FrontEnd Framework : ReactNative was choose at the beginning with ERON Team. After meeting on 2nd of June 2O21 with 2 developper Thomas Berton and Alex Lisoni , they ask us to change and use Angular Ionic;
   - Software Development:  AndroidStudio and XCode
   - Compiler and bundler : Expo
 - Platform : iOS / Android
@@ -133,15 +183,26 @@ Here are information about profile users of Application EronSanté, based on usu
     - typeform
   - Catalogues
 - App screens and features :
-  - Home screen
-  - Login screen
-  - Notification (date start and end of training session) (features)
-  - Personnal Training (screen)
-    - Resume progress (screen)
-    - List of training susbscribe (screen)
-    - List of training prerequisite and recommended about training followed (features)
-  - Shop screen (personal from GAFEO):
-    - secured payment (features)
+  - Home screen (everybody) with :
+    - Training by category
+    - News
+    - Contacts
+    - FAQ
+  - Login screen (learner):
+    - Profil screen:
+      - Notification (date start and end of training session) (features)
+      - Contacts
+      - FAQ
+    - Personnal Training (screen)
+      - Sumup /progress (screen)
+      - List of training susbscribe (screen)
+      <!-- - List of training prerequisite and recommended about training followed (features) -->
+    - Shop screen with 3 steps (features) and only paid by personal founds :
+      - User information
+      - Order's details
+      - secured payment
+
+
 - App functions: The app will allow user to see catalogues, news EronSanté, login (if they follow courses), see details of their training (start-end date session, number of hour spend, percentage completion),read and complete module training, to be redirect to shop training link with Dpc account.
 
 ## Design and Ergonomy
@@ -150,7 +211,7 @@ Here are information about profile users of Application EronSanté, based on usu
 
 To list all of features needed for the Application we describe User stories:
 
-- As a **learner** I want to **connect with my login and password** so that I can  **access to my personnal account**. 
+- As a **learner** I want to **connect with my login and password** so that I can  **access to my personnal account**.
 - As a **Learner** I want to **access to my lessons on smartphone/tablet** so that I can **complete training's module easily and everywhere**
 - As a **Learner** I want to **be notified when the deadline is coming** so that I can  **finish training in time**
 - As a **Learner** I want to **see sumup of all my training** so that I know **more about my training progress**
@@ -159,9 +220,9 @@ To list all of features needed for the Application we describe User stories:
 - As a **Visitor** I want to **see all training offer by ERON** so that I can **Subscribe to training session with DPC or FIFPL credits**
 - As a **Visitor** I want to **know news about my job** so that I can **get information about my job directly on my smartphone**
 
-
-
 ### Mockup
+
+Figma will be used in order to design mockup.
 
 # Code App
 
@@ -173,6 +234,13 @@ To list all of features needed for the Application we describe User stories:
 ![persona-visitor](../../Persona/Persona_Yves_Maunier_Medecin_Junior.jpg)
 <p align="center"> Fig.2 - Persona visitor</p>
 
+# To discuss and to validate
+
+| Questions / Matter of discussion                                              	| Context of discussion 	| Category of discussion    	| Author's question and role                                                   	| Comments / Answer  	| State (?,x,v) 	| Author's reviewer            	| Meeting's date to validate 	|
+|-------------------------------------------------------------------------------	|-----------------------	|---------------------------	|------------------------------------------------------------------------------	|--------------------	|---------------	|------------------------------	|----------------------------	|
+| Does the learner will get directly the training activated after the payment ? 	| Wireframe's feedback  	| Screen/ UX / Wireframe    	| Tiffany.j@eronservice / Backoffice                                           	|                    	| ?             	|                              	|                            	|
+| Another tab for shop to let the learner by training                           	| Wireframe's feedback  	| Screen/ UX / Wireframe    	| Tiffany.j@eronservice.fr / Backoffice<br>damien.v@eronservice.fr / Direction 	| yes                	| v             	| Damien Vert and Andria Capai 	| 04/06/2021                 	|
+| How precisely the learner could choose to be notified for deadline training ? 	| Wireframe's feedback  	| Features / UX / Wireframe 	| Tiffany.j@eronservice / Backoffice                                           	|                    	| ?             	|                              	|                            	|
 
 # External ressources
 
@@ -189,13 +257,17 @@ To list all of features needed for the Application we describe User stories:
 | Combien ?  |          |
 | Pourquoi ? |          | -->
 
+<!-- TODO: LATEX-->
+<!-- [ ] : Configurer template tex pour faire nouvelle page après titre -->
+<!-- [ ] : Voir pour -->
+
 <!-- TODO: Cahier des charges : -->
 <!-- [x] : Bête à cornes -->
 <!-- [ ] : Diagramme des interacteurs -->
 <!-- [ ] : Objectifs SMART -->
 <!-- [ ] : Matrice SWAT-->
 <!-- [ ] : QQOQCCP -->
-<!-- [ ] : Nomenclature [voir studi](https://app.studi.fr/#/dashboard/medialibrary/1561/matieres/44694/modules/53593/themes/109337/ressource/79594/lecteur) -->
+<!-- [x] : Nomenclature [voir studi](https://app.studi.fr/#/dashboard/medialibrary/1561/matieres/44694/modules/53593/themes/109337/ressource/79594/lecteur) -->
 <!-- [ ] : Périmetre fonctionnels  -->
 <!-- [ ] : Abres des objectifs -->
 <!-- [ ] : Ecosysteme digital -->
