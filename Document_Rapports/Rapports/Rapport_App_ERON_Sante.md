@@ -267,7 +267,7 @@ Figma will be used in order to design mockup.
 <!-- [ ] : Objectifs SMART -->
 <!-- [ ] : Matrice SWAT-->
 <!-- [ ] : QQOQCCP -->
-<!-- [x] : Nomenclature [voir studi](https://app.studi.fr/#/dashboard/medialibrary/1561/matieres/44694/modules/53593/themes/109337/ressource/79594/lecteur) -->
+<!-- [x] : Cartouche [voir studi](https://app.studi.fr/#/dashboard/medialibrary/1561/matieres/44694/modules/53593/themes/109337/ressource/79594/lecteur) -->
 <!-- [ ] : Périmetre fonctionnels  -->
 <!-- [ ] : Abres des objectifs -->
 <!-- [ ] : Ecosysteme digital -->
@@ -290,3 +290,6 @@ Figma will be used in order to design mockup.
 - date of birth
 - avatar (picture)
 - RPPS / Adeli (id professional ) -->
+
+<!-- TODO: FIGMA - Maquettes -->
+<!-- [ ] : sidemenu overlay lié à un interactive composant (variants:Formations, Acceuil etc) propriété topbar-titre -->
