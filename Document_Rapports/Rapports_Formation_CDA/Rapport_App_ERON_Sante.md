@@ -11,6 +11,29 @@ toc: true
 
 ---
 
+- [Introduction](#introduction)
+- [Management method](#management-method)
+- [Specifications](#specifications)
+  - [Company Eron](#company-eron)
+  - [Objective qualitative of Application](#objective-qualitative-of-application)
+  - [Customer/User target](#customeruser-target)
+  - [Quantitative objectives](#quantitative-objectives)
+  - [Project's Scope](#projects-scope)
+  - [Design and Ergonomy](#design-and-ergonomy)
+    - [Wireframe](#wireframe)
+    - [Mockup](#mockup)
+  - [Technical and Functional Description](#technical-and-functional-description)
+    - [Application tree structure](#application-tree-structure)
+    - [App's content information](#apps-content-information)
+    - [Techical Demands (constraints)](#techical-demands-constraints)
+  - [Performance expected and project management details](#performance-expected-and-project-management-details)
+    - [Performance expected](#performance-expected)
+    - [Planning](#planning)
+    - [Monitoring methodology](#monitoring-methodology)
+- [Appendices](#appendices)
+- [To discuss and to validate](#to-discuss-and-to-validate)
+- [External ressources](#external-ressources)
+
 **Authors of requirements specifications and group of expressing needs**
 
 | Name/Email| Role|
@@ -29,6 +52,8 @@ toc: true
 | Version number   | Date        | Description and circumstance about modification of Specifications                                                                                  |
 |----------------- |------------ |--------------------------------------------------------------------------------------------------------------------------------------------------- |
 | v 0.1 (Initial)  | 07/06/2021  | Specification draft , which the initial requirements specification followed by the first internal meeting and the meeting with partner Developper  |
+| v 0.2   | 24/06/2021  | Mockup (figma) and Wireframe (excalidraw) validate during internal meeting (according to feedback gave by employee) |
+| v 0.3  | 01/07/2021  | Add Functional and technical description for specification , Add Methodology and project management details  |
 
 <br>
 <br>
@@ -44,10 +69,11 @@ toc: true
 
 # Introduction
 
-This file is a description of Mobile App EronSante.  <br>
-The goal of this file is to describe all steps from specifications,  wireframe, mockup, workflow, code developped management method, softwares use, perspectives
+This file is a description of working-study training between SIMPLON (training organisation) and ERON Santé (company).  <br>
+The goal of this file is to describe everything about specifications,  wireframe, mockup, workflow, code developped management method, softwares use, perspectives and other things needed for the certification programm.
 
-The main goal of this app is to offer for users the possibility to : discover courses medical education , to buy or ask more information about these courses,  connect to their account in order complete their training, see their progression, deadline monitoring and also information about EronSante company.
+The main project give by ERON Company is to build an Application Mobile.
+The main goal of this app is to offer for users the possibility to : discover courses medical education , to buy or show more information about these courses,  connect to their account in order complete their training, see their progression, deadline monitoring and also information about EronSante company.
 
 # Management method
 
@@ -73,8 +99,9 @@ Below is every human ressources with their duties/functions need to know in orde
   - Thomas Berton : thomas.berton83@gmail.com
   - Alex Iasoni : alex.iasoni25@gmail.com
 
-In order to success to build the app, we are using **Agile method (Scrum)** (sprint's time to be define but pribably 2 weeks) with software **trello**. Also Thomas Berton and Alex Iasoni ask ERON to communicate via WhatsApp about the App and Website/CRM.
-Trello board named : "Appli Mobile".
+In order to success to build the app, we are using **Agile method (Scrum)** (sprint's time to be define but pribably 2 weeks) with software **trello** (intern to the company) and **clickup** (with external people). Also Thomas Berton and Alex Iasoni ask ERON to communicate via WhatsApp and Clickup about the App and Website/CRM.
+Trello board name : "Appli Mobile".
+ClickUp Space name : Application Mobile ERON/EFIA.
 
 # Specifications
 
@@ -173,7 +200,6 @@ Here are information about profile users of Application EronSanté, based on usu
 - Language Programmation :
   - FrontEnd Framework : ReactNative was choose at the beginning with ERON Team. After meeting on 2nd of June 2O21 with 2 developper Thomas Berton and Alex Lisoni , they ask us to change and use Angular Ionic;
   - Software Development:  AndroidStudio and XCode
-  - Compiler and bundler : Expo
 - Platform : iOS / Android
 - Devices app run on : tablet , Smartphone
 - Type of Application : showcase/ Learning / Shop
@@ -196,12 +222,10 @@ Here are information about profile users of Application EronSanté, based on usu
     - Personnal Training (screen)
       - Sumup /progress (screen)
       - List of training susbscribe (screen)
-      <!-- - List of training prerequisite and recommended about training followed (features) -->
     - Shop screen with 3 steps (features) and only paid by personal founds :
       - User information
       - Order's details
       - secured payment
-
 
 - App functions: The app will allow user to see catalogues, news EronSanté, login (if they follow courses), see details of their training (start-end date session, number of hour spend, percentage completion),read and complete module training, to be redirect to shop training link with Dpc account.
 
@@ -222,9 +246,83 @@ To list all of features needed for the Application we describe User stories:
 
 ### Mockup
 
-Figma will be used in order to design mockup.
+Figma will be used in order to design mockup. The project Figma and the prototype to see interactive mockup is [available here](https://www.figma.com/proto/auNdUSZ0D6N5bqd2ptjYSw/Application_ERON?node-id=93%3A20615&scaling=scale-down&page-id=11%3A270).
 
-# Code App
+## Technical and Functional Description
+
+### Application tree structure
+<!-- TODO: Add schema in order to explain main section to details -->
+
+### App's content information
+
+What it is expecting from ERON company :
+
+- Create from scratch the application and integrate website ERON information (CMS Wordpress) , GAFEO platform (LMS, Moodle) data about user (learner) thank's to an API build by the two developper Thomas Berton and Alex Iasoni.
+- Pictures and contents training are furnished by company ERON.
+- Pictures are available from free website (pixabay, freepik, storyset.com) and also from stock.adobe ERON Company account.
+
+### Techical Demands (constraints)
+
+In order to build the app, the app designer programmer will have to :
+
+- Work with developper of CRM, Moodle and Website (Thomas Berton and Alex Iasoni)
+- Integrate API (API given by Thomas Berton and Alex Iasoni) about website, CRM, Moodle GAFEO , inside Mobile App.
+- Designer Programmer App will have to carry out Front end of the App and nothing about CMS, CRM or Moodle has to be carry out by the App Designer Programmer.
+- Solutions used for UX design : Excalidraw and Figma
+- Solutions used for App development : Framework Angular Ionic Capacitor
+- Solutions used for management project : Trello and Slack (internal communication) , what's app and ClickUp (external communication)
+
+## Performance expected and project management details
+<!-- Prestations attendues -->
+
+### Performance expected
+
+- List of performances expected to internal Designer Developer Application :
+  - UX Design Application
+  - FrontEnd Development Application
+
+- List of performances expected to external partenship (Alex Iasoni and Thomas Berton):
+  - Website redesign (CMS wordpress)
+  - Moodle platform GAFEO
+  - CRM (Dolibarr)
+  - Build API in order to give to the App Designer Programmer (ERON Company)
+
+### Planning
+
+<!-- TODO: GANT Project list step -->
+<!--
+[ ]: Wireframe
+[ ]: Mockup
+[ ]: Prototype (Development App)
+[ ]: Production App
+[ ]: Tests
+[ ]: Store deployment (apple, google)
+-->
+
+### Monitoring methodology
+
+About monitoring methodology there are two kind : internal and external company.
+
+For internal company :
+
+- Trello and Slack are the main platform communication between internal developer and other employees company (direction and backoffice)
+- Git (with github) distributed version control system (DVCS) is used by internal developer in order to manage application development
+  - Git branches naming convention and git Workflow : 
+    - Master (this branch will contains only stale version of the App)
+    - Develop (this branch will get all history of the app)
+    - Features (branches created from Develop branch and merge only on Develop Branch, and finally deleted the feature's branch)
+    - Release (branch forked from Develop and merged to master once the release is check by a pull request)
+    - HotFix (branch forked directly from master branch and once bugfix then we have to merge into master and develop branch and add updated version number to master branch, finally delete branch hotfix)
+  - See more details about workflow [here](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow)
+- Each week (on wednesday) an internal meeting is carried out in order to talk different kind of Company's topic/matters.
+- Agile method with sprint's last of 2 weeks is targeted
+
+For external company :
+
+- WhatsApp and ClickUp are the main platform communication between internal developer and external developer.
+- Git created by internal designer programmer (Andria Capai) is shared with external developer.
+
+For external company
 
 # Appendices
 
@@ -236,11 +334,11 @@ Figma will be used in order to design mockup.
 
 # To discuss and to validate
 
-| Questions / Matter of discussion                                              	| Context of discussion 	| Category of discussion    	| Author's question and role                                                   	| Comments / Answer  	| State (?,x,v) 	| Author's reviewer            	| Meeting's date to validate 	|
-|-------------------------------------------------------------------------------	|-----------------------	|---------------------------	|------------------------------------------------------------------------------	|--------------------	|---------------	|------------------------------	|----------------------------	|
-| Does the learner will get directly the training activated after the payment ? 	| Wireframe's feedback  	| Screen/ UX / Wireframe    	| Tiffany.j@eronservice / Backoffice                                           	|                    	| ?             	|                              	|                            	|
-| Another tab for shop to let the learner by training                           	| Wireframe's feedback  	| Screen/ UX / Wireframe    	| Tiffany.j@eronservice.fr / Backoffice<br>damien.v@eronservice.fr / Direction 	| yes                	| v             	| Damien Vert and Andria Capai 	| 04/06/2021                 	|
-| How precisely the learner could choose to be notified for deadline training ? 	| Wireframe's feedback  	| Features / UX / Wireframe 	| Tiffany.j@eronservice / Backoffice                                           	|                    	| ?             	|                              	|                            	|
+| Questions / Matter of discussion                                               | Context of discussion  | Category of discussion     | Author's question and role                                                    | Comments / Answer   | State (?,x,v)  | Author's reviewer             | Meeting's date to validate  |
+|------------------------------------------------------------------------------- |----------------------- |--------------------------- |------------------------------------------------------------------------------ |-------------------- |--------------- |------------------------------ |---------------------------- |
+| Does the learner will get directly the training activated after the payment ?  | Wireframe's feedback   | Screen/ UX / Wireframe     | Tiffany.j@eronservice / Backoffice                                            |                     | ?              |                               |                             |
+| Another tab for shop to let the learner by training                            | Wireframe's feedback   | Screen/ UX / Wireframe     | Tiffany.j@eronservice.fr / Backoffice<br>damien.v@eronservice.fr / Direction  | yes                 | v              | Damien Vert and Andria Capai  | 04/06/2021                  |
+| How precisely the learner could choose to be notified for deadline training ?  | Wireframe's feedback   | Features / UX / Wireframe  | Tiffany.j@eronservice / Backoffice                                            |                     | ?              |                               |                             |
 
 # External ressources
 
@@ -257,10 +355,6 @@ Figma will be used in order to design mockup.
 | Combien ?  |          |
 | Pourquoi ? |          | -->
 
-<!-- TODO: LATEX-->
-<!-- [ ] : Configurer template tex pour faire nouvelle page après titre -->
-<!-- [ ] : Voir pour -->
-
 <!-- TODO: Cahier des charges : -->
 <!-- [x] : Bête à cornes -->
 <!-- [ ] : Diagramme des interacteurs -->
@@ -271,25 +365,7 @@ Figma will be used in order to design mockup.
 <!-- [ ] : Périmetre fonctionnels  -->
 <!-- [ ] : Abres des objectifs -->
 <!-- [ ] : Ecosysteme digital -->
-<!-- [ ] : Planning (RoadMap et Gantt) -->
-
-<!-- NOTES: Utilisateurs type (age moyen 40-50 et ensuite on vise les plus jeunes. 3/4 du temps -> compte mondpc.fr .  ) -->
-<!-- [ ] Parcours utilisateurs: typeform avec profession -> lié à la profession -> ... (prendre même typeform) -->  
-<!-- [ ] Chaque formation possibilité de l'ajouter au panier et ensuite de redirigé vers le typeform -->
-<!-- [ ] Notifications permet d'alleger le back office en terme d'appel, mail -->
 
 <!-- NOTES: gestion typeform par  -->
 <!--  NOTES: fidéliser les clients (3ans), partenaire Dictionnaire VIDAL (ressources externes partenaires), teamDoc (partage de photos médical), viser un public plus jeune ->
 <!-- NOTES: Possibilités de télécharger la fiche récap de fin de formation pour éviter d'appeler le backoff -->
-
-<!-- NOTES: User info :
-- name
-- surname
-- email
-- password
-- date of birth
-- avatar (picture)
-- RPPS / Adeli (id professional ) -->
-
-<!-- TODO: FIGMA - Maquettes -->
-<!-- [ ] : sidemenu overlay lié à un interactive composant (variants:Formations, Acceuil etc) propriété topbar-titre -->
