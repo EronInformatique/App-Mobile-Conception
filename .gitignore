@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4d203c9... Modify .gitignore and organize folder
 *~
 *.sw[mnpcod]
 .tmp
@@ -13,25 +9,10 @@
 Thumbs.db
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
-<<<<<<< HEAD
 
-*.log
-log.txt
-npm-debug.log*
-=======
-/Code_Application
-/Maquette_HighFidelity/Figma/Projet_Maquette_App_ERON
-*.pdf
->>>>>>> e886726... Modify .gitignore in order to exclude properly all things different of UX design
-=======
 *.log
 log.txt
 npm-debug.log*
 
 /app_mobile_ERON/
-<<<<<<< HEAD
-**/node_modules/
->>>>>>> 4d203c9... Modify .gitignore and organize folder
-=======
 /app_mobile_ERON/node_modules/
->>>>>>> 3a77806... re organize folder branch design app
