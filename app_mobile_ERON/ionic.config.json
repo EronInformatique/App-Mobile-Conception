@@ -1,7 +1,0 @@
-{
-  "name": "app_mobile_ERON",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
